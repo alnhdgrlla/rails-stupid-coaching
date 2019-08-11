@@ -1,14 +1,13 @@
-<div class="container">
-  <h1 id="stupid">Stupid Coaching</h1>
-    <div id="container2">
-      <div id="question">
-        <p><%= @question %></p>
-        <p>-You</p>
-      </div>
-      <div id="answer">
-        <p><%= @answer %></p>
-        <p>-Your coach</p>
-      </div>
-      <%= link_to "Ask a new question", ask_path %>
-    </div>
+<h1>Stupid Coaching</h1>
+
+<div class="question">
+  <h3>You asked...</h3>
+  <p><%=@question%></p>
 </div>
+
+<div class="answer">
+  <h3>Your coach said...</h3>
+  <p><%=@answer%></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
