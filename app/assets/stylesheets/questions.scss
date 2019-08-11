@@ -1,0 +1,44 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+  font-family: Roboto;
+  margin:auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.question{
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: #337ab7;
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#stupid{
+  text-align: left;
+}
+
+#container2{
+  text-align: left;
+}
+
+#question{
+  border-left: 6px solid grey;
+  padding-left: 10px;
+  width: 500px;
+}
+
+#answer{
+  border-left: 6px solid grey;
+  padding-left: 10px
+  width: 500px;
+  background-color: yellow;
+}
